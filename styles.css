@@ -1,61 +1,42 @@
-
-/* Your CSS Code here. */
-.container{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    row-gap: 6px;
-    border: 6px solid rgb(9, 226, 9);
-    height: 600px;
-    width: 660px;
-    padding: 5px;
+*{
+    margin: 0;
+    padding: 0;
 }
-.color_1{
-    background-color: rgb(22, 160, 153);
-    
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    border: 6px solid rgb(26, 226, 42);
+    margin: 50px 50px;
+    max-width: 750px;
 }
-.color_2{
-    background-color: rgb(211, 186, 211);
-    /* border: 1px dotted black; */
+.row > div {
+    border: 2px dotted rgb(175, 146, 146);
 }
-.color_3{
-    background-color: rgb(66, 17, 17);
-    /* border: 1px dotted black; */
+.row{
+    border: 3px solid pink;
 }
-.color_4{
-    background-color: rgb(238, 109, 109);
-    /* border: 1px dotted black; */
+#row-height{
+    height: 220px;
+    font-size: 30px;
 }
-.color_5{
-    background-color: rgb(116, 222, 248);
-    /* border: 1px dotted black; */
+#brown{
+    background-color: rgb(39, 9, 9);
 }
-.color_6{
+#bluish{
+    background-color: rgb(19, 113, 126);
+}
+#pinkish{
+    background-color: rgb(231, 176, 231);
+}
+#tomato{
+    background-color: tomato;
+}
+#skyish{
+    background-color: rgb(32, 190, 230);
+}
+#violet{
     background-color: violet;
-    /* border: 1px dotted black; */
 }
-.color_7{
-    background-color: greenyellow;
-    /* border: 1px dotted black; */
-}
-#box1,#box3,#box8,#box11,#box14,#box16{
-    border-left: dotted 2px black;
-    border-top: dotted 2px black;
-    border-bottom: dotted 2px black;
-}
-#box2{
-    border-right: dotted 2px black;
-    border-top: dotted 2px black;
-    border-bottom: dotted 2px black;
-}
-#box4,#box5{
-    border-top: dotted 2px black;
-    border-bottom: dotted 2px black;
-}
-#box6,#box9,#box12,#box15,#box17{
-    border-right: dotted 2px black;
-    border-top: dotted 2px black;
-    border-bottom: dotted 2px black;
-}
-#box7,#box13,#box10,#box18{
-    border: dotted 2px black;
+#grrenish-yellow{
+    background-color: rgb(148, 223, 37);
 }
